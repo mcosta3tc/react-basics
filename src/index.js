@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from "./components/Header";
+import './styles/styles.css';
 
 const App = () => (
-    <>
-        <h1>Hello World !</h1>
-    </>
+        <>
+            <Header/>
+        </>
 )
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render( <App/>, document.getElementById( 'root' ) );
